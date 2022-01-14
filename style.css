@@ -1,0 +1,157 @@
+/* ---------------
+Google fonts
+---------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* ---------------
+Universal styles
+---------------- */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ---------------
+Navigation menu styles
+---------------- */
+
+nav {
+  background-color: blueviolet;
+  color: white;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo {
+  margin-left: 15px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  background-color: brown;
+  display: flex;
+  /* flex-direction: column; */
+  /* position: absolute; */
+}
+
+.menu > .links a {
+  text-decoration: none;
+  color: white;
+  padding: 0 30px;
+}
+
+.menu > .links a:hover {
+  background-color: red;
+}
+/* ---------------
+Symbol font size
+---------------- */
+
+.fas {
+  font-size: 25px;
+  padding: 0 15px;
+}
+.fa-times {
+  font-size: 30px;
+  margin-bottom: -3px;
+}
+.dropdown {
+  display: none;
+}
+
+/* ---------------
+Style_Comment
+---------------- */
+@media only screen and (max-width: 840px) {
+  .menu {
+    flex-direction: column;
+  }
+  /* 
+  .dropdown {
+    display: flex;
+  }
+  #click,
+  #cross {
+    display: none;
+  }
+
+  #drop,
+  #click:checked ~ .menu > .links {
+    display: flex;
+  }
+
+  #click:checked ~ #drop {
+    display: none;
+  }
+  #click:checked ~ #cross {
+    display: block;
+  } */
+}
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
+
+/* ---------------
+Style_Comment
+---------------- */
