@@ -282,4 +282,7 @@ footer .fab {
     grid-template-columns: repeat(1, 1fr);
     column-gap: 30px;
   }
+  .logo h1 {
+    font-size: 1em;
+  }
 }
