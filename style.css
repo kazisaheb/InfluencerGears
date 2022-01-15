@@ -9,7 +9,7 @@ Universal styles
 * {
   padding: 0;
   margin: 0;
-  transition: all 0.2s ease-out;
+  transition: all 1s ease-out;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -71,6 +71,7 @@ nav .logo:hover,
 
 .menu ul li a:hover {
   background-color: #80808048;
+  color: #d40063;
 }
 
 /* -------------------------
@@ -110,18 +111,20 @@ button:hover,
   margin-bottom: 100px;
   justify-items: center;
 }
+
 .banner_img img {
   max-width: 400px;
   height: auto;
 }
 .banner_img img:hover {
-  transform: rotate(360deg) scale(1.5);
-  transition: transform all 2s ease-out;
+  transform: rotate(360deg) scale(1.4);
+  transition: transform 1s ease-in-out;
 }
 /* -------------------------
  Brand section styles
 ------------------------- */
-.brands {
+.brands,
+.more {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -140,6 +143,7 @@ button:hover,
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  justify-items: center;
   column-gap: 30px;
 }
 
@@ -155,9 +159,12 @@ button:hover,
   max-height: 300px;
   border-radius: 10px;
   margin-bottom: 10px;
+  overflow: hidden;
 }
+
 .product h2 {
   margin: 10px 0;
+  font-weight: normal;
 }
 .stars {
   display: flex;
@@ -173,6 +180,7 @@ button:hover,
   color: orange;
   font-size: 1em;
 }
+
 /* -------------------------
   User styles
 ------------------------- */
@@ -244,7 +252,7 @@ footer .fab {
 /* -------------------------
   Media quries
 ------------------------- */
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 992px) {
   nav .dropdown {
     display: flex;
     align-items: center;
@@ -265,7 +273,7 @@ footer .fab {
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 688px) {
   .products {
     grid-template-columns: repeat(1, 1fr);
     column-gap: 30px;
