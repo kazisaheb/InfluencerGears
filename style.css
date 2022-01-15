@@ -13,13 +13,17 @@ Universal styles
 }
 body {
   font-family: "Poppins", sans-serif;
-  max-width: 1100px;
-  margin: 0 auto;
   color: rgb(63, 63, 63);
 }
 .text_center {
   text-align: center;
   margin: 100px 0 30px 0;
+}
+
+header,
+main {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 /* -------------------------
   Navigation menu styles
@@ -41,7 +45,8 @@ nav .logo,
   padding: 0 15px;
 }
 nav .logo:hover,
-.fas:hover {
+.fas:hover,
+.fab:hover {
   color: #d40063;
 }
 .menu {
@@ -75,7 +80,8 @@ section {
   padding: 0 15px;
 }
 
-button {
+button,
+#buttons {
   color: white;
   background-color: #d40063;
   border: none;
@@ -90,7 +96,8 @@ button .fa-arrow-right {
   padding-left: 5px;
   font-size: 15px;
 }
-button:hover {
+button:hover,
+#buttons:hover {
   background-color: #950046;
 }
 
@@ -162,6 +169,73 @@ button:hover {
   font-size: 1em;
 }
 /* -------------------------
+  User styles
+------------------------- */
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.user > .subscrib {
+  width: 100%;
+  margin-right: 50px;
+}
+.user > .subscrib p {
+  margin: 30px 0;
+}
+.user > .contacts {
+  width: -webkit-fill-available;
+}
+#sub_form {
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px -10px;
+  background-color: white;
+}
+
+#email {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 80%;
+  margin: 10px 0;
+}
+
+#fullname,
+#youremail {
+  width: 50%;
+  padding: 7px 3px;
+}
+
+#textarea {
+  width: 90%;
+  padding: 7px 3px;
+}
+/* -------------------------
+  Footer styles
+------------------------- */
+footer {
+  color: white;
+  background-color: rgb(0, 0, 56);
+  padding: 40px;
+  text-align: center;
+}
+
+footer p {
+  font-size: small;
+  margin: 5px 0;
+}
+footer .fab {
+  background-color: #80808038;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.5em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* -------------------------
   Navigation media
 ------------------------- */
 /* Extra small devices (phones, 600px and down) */
@@ -174,15 +248,3 @@ button:hover {
     display: none;
   }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {...} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {...} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
