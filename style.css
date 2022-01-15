@@ -33,6 +33,10 @@ nav .logo,
   cursor: pointer;
   padding: 0 15px;
 }
+nav .logo:hover,
+.fas:hover {
+  color: #d40063;
+}
 .menu {
   display: flex;
   align-items: center;
